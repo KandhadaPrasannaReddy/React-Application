@@ -10,7 +10,7 @@ class Form extends React.Component {
         this.onAliasChange =this.onAliasChange.bind(this)
         this.onTeamChange =this.onTeamChange.bind(this)
 
-        this.state ={
+        this.props ={
             name: props.name,
             alias: props.alias,
             team: props.team,

@@ -11,5 +11,5 @@ class Thead extends React.Component {
         )
     }
 }
-
+ 
 export default Thead;
